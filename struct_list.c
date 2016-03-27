@@ -13,7 +13,7 @@ main()
 	for(i=1 ; i<=2 ; i++)
 	{
 		printf("%d,",p->x);
-		p->y;
+		p = p->y;
 	}
 	printf("\n");
 }
